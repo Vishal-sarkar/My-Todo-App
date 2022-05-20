@@ -1,1 +1,35 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+</head>
+<body>
+    <section class="section-center">
+        <!--form-->
+        <form class="todo-form">
+            <p class="alert"></p>
+            <h3>grocery bud</h3>
+            <div class="form-control">
+                <input type="text" placeholder="e.g.- go to buy grocery">
+                <button type="submit" class="submit-btn">submit</button>
+            </div>
+        </form>
+        <!-- list -->
+        <div class="todo-container">
+            <div class="todo-list">
+                <article class="todo-item">
+                    <p class="title">item</p>
+                    <div class="btn-container">
+                        <button type="button" class="edit-btn">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
