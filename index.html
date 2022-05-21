@@ -1,35 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To do list</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my todos</title>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <section class="section-center">
-        <!--form-->
-        <form class="todo-form">
-            <p class="alert"></p>
-            <h3>grocery bud</h3>
-            <div class="form-control">
-                <input type="text" placeholder="e.g.- go to buy grocery">
-                <button type="submit" class="submit-btn">submit</button>
-            </div>
-        </form>
-        <!-- list -->
-        <div class="todo-container">
-            <div class="todo-list">
-                <article class="todo-item">
-                    <p class="title">item</p>
-                    <div class="btn-container">
-                        <button type="button" class="edit-btn">
-                            <i class="fas fa-trash"></i>
-                        </button>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
+	<section class="section-center">
+		<!-- form -->
+		<form class="todo-form">
+			<p class="alert"></p>
+			<h2>my todos</h2>
+			
+			<div class="form-control">
+				<input type="text" id="todos" placeholder="e.g. clean">
+				<button type="submit" class="add-Btn">add</button>
+			</div>
+		</form>
+		<!-- lists -->
+		<div class="todo-container">
+			<div class="todo-list">
+				<!-- <article class="todo-item">
+					<p class="title"></p>
+					<div class="btn-container">
+						<button type="button" class="edit-btn">
+							edit
+						</button>
+						<button type="button" class="delete-btn">
+							delete
+						</button>
+					</div>
+				</article> -->
+			</div>
+		<!-- button -->
+			<button type="button" class="clear-btn">clear</button>
+		</div>
+	</section>
+<!-- script -->
+<script src="script.js"></script>
 </body>
 </html>
