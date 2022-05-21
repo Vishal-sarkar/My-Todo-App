@@ -62,12 +62,12 @@ button:hover{
     padding: 0;
     margin: 0;
 }
-/* .todo-container{
+.todo-container{
     visibility: hidden;
-} */
-/* .show-container{
+}
+.show-container{
     visibility: visible;
-} */
+}
 .add-Btn{
     background-color: #6045fa;
     border: 2px;
